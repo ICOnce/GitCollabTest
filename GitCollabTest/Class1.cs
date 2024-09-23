@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace GitCollabTest
 {
-    internal class Class1
+    public enum Cake { Brownie, Cookie, Pandekage }
+
+    public class Class1
     {
+        // instance fields
+
+        // properties
+
+        // constuctor
+
+        // methods 
+
+        public static void EatCake(Cake cake)
+        {
+            Console.WriteLine($"{cake} nom nom");
+        }
     }
 }
